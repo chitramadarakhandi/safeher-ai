@@ -1,0 +1,36 @@
+# Dependencies
+node_modules/
+backend/node_modules/
+frontend/node_modules/
+.npm
+package-lock.json
+
+# Environment Variables
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+backend/.env
+frontend/.env
+*.pem
+
+# IDEs and Editors
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+.DS_Store
+
+# Build Outputs (Frontend ONLY - we keep backend/public)
+frontend/dist/
+frontend/build/
+*.log
+
+# Misc
+brain/
+scratch/
+.gemini/

@@ -1,0 +1,21 @@
+{
+  "name": "safeher-backend",
+  "version": "1.0.0",
+  "description": "Backend for SafeHer AI",
+  "main": "server.js",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "build": "echo 'No backend build needed, frontend is already bundled'"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.24.1",
+    "cors": "^2.8.6",
+    "dotenv": "^16.6.1",
+    "express": "^4.22.1"
+  }
+}
+
