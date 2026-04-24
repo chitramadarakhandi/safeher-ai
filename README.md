@@ -40,6 +40,7 @@ npm install
 npm run dev
 ```
 The frontend runs on `http://localhost:5173`. Open this URL in your browser.
+The deployed link of the project "https://teal-griffin-ff37f2.netlify.app" . open URL in your browser.
 
 ## Using the Prototype
 1. Ensure microphone permissions are granted when prompted by the browser. 
